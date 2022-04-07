@@ -127,9 +127,9 @@ class ViewController: UIViewController {
     
     func changeHeartIcon() {
         if arrOfMusic[currMusic].isFavorite! {
-            favMusicBtn.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+            favMusicBtn.setImage(UIImage(systemName: "heart.circle.fill"), for: .normal)
         } else {
-            favMusicBtn.setImage(UIImage(systemName: "suit.heart"), for: .normal)
+            favMusicBtn.setImage(UIImage(systemName: "heart.circle"), for: .normal)
         }
         
     }
